@@ -1,0 +1,22 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "In this assignment, the challenge is to architect and build a solution for managing a company's employees using node, inquirer, and MySQL.",
+  "main": "tracker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/banksc7669/Employee-Tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/banksc7669/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/banksc7669/Employee-Tracker#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
