@@ -1,3 +1,6 @@
+-- Drops the employee_db if it already exists --
+DROP DATABASE IF EXISTS employee_db;
+
 -- Create the database employee_db and specified it for use.
 CREATE DATABASE employee_db;
 

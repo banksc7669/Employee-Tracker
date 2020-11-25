@@ -1,5 +1,6 @@
 const mysql = require("mysql");
 const inquirer = require("inquirer");
+const consoleTable = require('console.table');
 
 // create the connection information for the sql database
 const connection = mysql.createConnection({
@@ -13,7 +14,7 @@ const connection = mysql.createConnection({
 
     // Your password
     password: "root1234",
-    database: "employee_tracker_DB"
+    database: "employee_DB"
 });
 
 // connect to the mysql server and sql database
@@ -61,5 +62,9 @@ start() => {
                 case "Add roles":
                     addRolls();
                     break;
+                case "EXIT":
+                    end();
+                    break;
             }
-        });
+        })
+    }
